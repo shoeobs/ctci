@@ -25,31 +25,41 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="1.2.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ch01/1.2.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="399">
+              <caret line="20" column="37" lean-forward="false" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="1.3.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ch01/1.3.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="20" column="37" lean-forward="true" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
+            <state relative-caret-position="588">
+              <caret line="28" column="19" lean-forward="false" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="19" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="1.4.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="1.4.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ch01/1.4.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="588">
-              <caret line="28" column="19" lean-forward="true" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="19" />
+            <state relative-caret-position="441">
+              <caret line="21" column="33" lean-forward="true" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="1.5.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ch01/1.5.py">
+      <file leaf-file-name="1.6.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ch01/1.6.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="11" column="13" lean-forward="true" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+            <state relative-caret-position="189">
+              <caret line="9" column="21" lean-forward="false" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -79,8 +89,8 @@
         <option value="$PROJECT_DIR$/ch01/1.1.py" />
         <option value="$PROJECT_DIR$/ch01/1.2.py" />
         <option value="$PROJECT_DIR$/ch01/1.3.py" />
-        <option value="$PROJECT_DIR$/ch01/1.4.py" />
         <option value="$PROJECT_DIR$/ch01/1.5.py" />
+        <option value="$PROJECT_DIR$/ch01/1.4.py" />
       </list>
     </option>
   </component>
@@ -134,8 +144,8 @@
       <recent name="C:\Users\carlx\OneDrive\Documents\GitHub\ctci\1" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Nosetests in 1.3">
-    <configuration default="false" name="Nosetests in 1.3" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.Nosetests in 1.2">
+    <configuration default="false" name="Nosetests in 1.2" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs />
@@ -145,7 +155,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="ctci" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ch01/1.3.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\carlx\OneDrive\Documents\GitHub\ctci\ch01\1.2.py" />
       <option name="CLASS_NAME" value="" />
       <option name="METHOD_NAME" value="" />
       <option name="FOLDER_NAME" value="" />
@@ -291,11 +301,11 @@
       <method />
     </configuration>
     <list size="1">
-      <item index="0" class="java.lang.String" itemvalue="Python tests.Nosetests in 1.3" />
+      <item index="0" class="java.lang.String" itemvalue="Python tests.Nosetests in 1.2" />
     </list>
     <recent_temporary>
       <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="Python tests.Nosetests in 1.3" />
+        <item index="0" class="java.lang.String" itemvalue="Python tests.Nosetests in 1.2" />
       </list>
     </recent_temporary>
   </component>
@@ -356,6 +366,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ch01/1.2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="20" column="37" lean-forward="false" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch01/1.3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="588">
+          <caret line="28" column="19" lean-forward="false" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch01/1.6.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="21" lean-forward="false" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ch01/1.1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="231">
@@ -364,26 +398,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ch01/1.3.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="20" column="37" lean-forward="true" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ch01/1.4.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="588">
-          <caret line="28" column="19" lean-forward="true" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ch01/1.5.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="11" column="13" lean-forward="true" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        <state relative-caret-position="441">
+          <caret line="21" column="33" lean-forward="true" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
           <folding />
         </state>
       </provider>

@@ -1,42 +1,28 @@
-"""
-Given two strings, write a method to decide if one is a permutation of the other
-"""
-
 import unittest
 
 
-def are_permutations_sort(s1, s2):
-    if len(s1) != len(s2):
-        return False
-    return sorted(s1) == sorted(s2)
+def urlify(s_, length):
+    num_of_spaces = s_[:length].count(' ')
+    new_length = length + num_of_spaces * 2
+    new_index = new_length - 1
+    for i in reversed(range(length)):
+        if s_[i] == ' ':
+            s_ = s_[:(new_index - 2)] + '%20' + s_[(new_index + 1):]
+            new_index -= 3
+        else:
+            s_ = s_[:new_index] + s_[i] + s_[(new_index + 1):]
+            new_index -= 1
+    return s_
 
 
-def are_permutations_char_counts(s1, s2):
-    if len(s1) != len(s2):
-        return False
-    char_counts = {}
-    for c1, c2 in zip(s1, s2):
-        char_counts[c1] = char_counts.get(c1, 0) + 1
-        char_counts[c2] = char_counts.get(c2, 0) - 1
-    for char in char_counts.values():
-        if char != 0:
-            return False
-    return True
+class TestUrlify(unittest.TestCase):
+    cases = [('much ado about nothing      ', 22, 'much%20ado%20about%20nothing'),
+             ('Mr John Smith    ', 13, 'Mr%20John%20Smith')]
 
-
-class TestPermutations(unittest.TestCase):
-    case_true = [['abc', 'cab'], ['x', 'x'], ['', '']]
-    case_false = [['ab', 'a'], ['abd', 'dac'], ['', 'b']]
-    def test_are_permutations_sort(self):
-        for strings in self.case_true:
-            self.assertTrue(are_permutations_sort(*strings))
-        for strings in self.case_false:
-            self.assertFalse(are_permutations_sort(*strings))
-    def test_are_permutations_char_counts(self):
-        for strings in self.case_true:
-            self.assertTrue(are_permutations_char_counts(*strings))
-        for strings in self.case_false:
-            self.assertFalse(are_permutations_char_counts(*strings))
+    def test_urlify(self):
+        for [test_string, length, expected] in self.cases:
+            actual = urlify(test_string, length)
+            self.assertEqual(actual, expected)
 
 
 if __name__ == '__main__':
